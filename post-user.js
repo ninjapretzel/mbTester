@@ -7,7 +7,7 @@ var userPass = '';
 
 request({
   url: endpoint, //URL to hit
-  qs: {from: 'Record Test', time: +new Date()}, //Query string data
+  qs: {from: 'User Post Test', time: +new Date()}, //Query string data
   method: 'POST',
   headers: {
     'Authorization': key
